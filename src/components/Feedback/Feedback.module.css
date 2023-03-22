@@ -1,0 +1,47 @@
+.wrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.good {
+    color: black;
+    width: 100px;
+    height: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.good:hover {
+    background-color: green;
+    color: white;
+}
+
+.neutral {
+    color: black;
+    width: 100px;
+    height: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.neutral:hover {
+    background-color: #173d85;
+    color: white;
+}
+
+.bad {
+    color: black;
+    width: 100px;
+    height: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.bad:hover {
+    background-color: brown;
+    color: white;
+}
